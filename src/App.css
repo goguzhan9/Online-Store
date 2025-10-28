@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+:root {
+  --app-bg: #f8fafc;
+  --text-muted: #64748b;
+  --text-dark: #0f172a;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-shell {
+  background-color: var(--app-bg);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app-main {
+  padding-bottom: 3rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hero-section {
+  background: linear-gradient(135deg, #e0f2fe 0%, #e0e7ff 100%);
+}
+
+.hero-section .display-5 {
+  color: var(--text-dark);
+}
+
+.hero-section .lead {
+  max-width: 520px;
+}
+
+.auth-section {
+  background: linear-gradient(135deg, #dbeafe, #ede9fe);
+  min-height: calc(100vh - 140px);
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.auth-section .card {
+  border-radius: 18px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.auth-section .card-body {
+  color: var(--text-dark);
+}
+
+.auth-section .form-control {
+  padding: 0.875rem 1rem;
+  border-radius: 0.75rem;
+}
+
+.auth-section .form-control:focus {
+  box-shadow: 0 0 0 0.25rem rgba(37, 99, 235, 0.15);
+}
+
+.product-card img {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
+.product-card .price-tag {
+  color: #1d4ed8;
+  font-size: 1.1rem;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+  color: #ffffff;
+}
+
+.navbar .btn.active {
+  color: #1d4ed8;
+  background-color: #ffffff;
+}
+
+footer {
+  margin-top: auto;
+}
+
+@media (max-width: 992px) {
+  .navbar .navbar-nav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }

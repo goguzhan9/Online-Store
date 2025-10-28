@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Akıllı Saat",
+    "description": "Sağlık takibi, uyku analizi ve akıllı bildirimler için ideal günlük akıllı saat.",
+    "price": 2199,
+    "image": "https://images.unsplash.com/photo-1523475472560-d2df97ec485c?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Kablosuz Kulaklık",
+    "description": "Aktif gürültü engelleme ve 24 saat pil ömrü.",
+    "price": 1799,
+    "image": "https://images.unsplash.com/photo-1511396275276-0a3f84eb27c8?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Bluetooth Hoparlör",
+    "description": "Suya dayanıklı, kompakt tasarım ve yüksek ses kalitesine sahip taşınabilir hoparlör.",
+    "price": 1299,
+    "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 4,
+    "name": "Drone",
+    "description": "4K kamera ve otomatik uçuş modlarıyla kreatif çekimler.",
+    "price": 5499,
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 5,
+    "name": "Oyun Konsolu",
+    "description": "Yeni nesil grafikler ve geniş oyun kütüphanesi.",
+    "price": 8999,
+    "image": "https://images.unsplash.com/photo-1606813902773-0ef3c08aa725?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 6,
+    "name": "Laptop",
+    "description": "Hafif, güçlü ve uzun pil ömrü ile üretkenlik için tasarlandı.",
+    "price": 11999,
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80"
+  }
+]
